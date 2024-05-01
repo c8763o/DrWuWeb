@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bgColor{
+  background-color: #8BB28C;
+}
+
+.mainColor{
+  color: #8BB28C;
+}
+
+.rounded-pill.active{
+  background-color: #8BB28C !important;
+}
+
+.link-offset-1.active{
+  border-style: solid !important;
+  border-color: #0000002d !important;
+  border-radius: 2rem !important;
+  border-width: .1rem;
+  background-color: #8bb28c0b;
+}
+
+.borderMainColor{
+  border-color: #8BB28C !important;
+}
+
+.btn-1:hover{
+  background-color: #8BB28C !important;
+  color: white !important;
+  border-color: black !important;
+}
+
+.btn-2{
+  background-color: white;
+  color: #8BB28C;
+  border-color: black ;
+}
+.btn-2:hover{
+  background-color: #000000;
+  color: white;
+  border-color: black;
+}
+
+.Fbtn{
+  text-decoration: underline !important;
+}
+.Fbtn:hover{
+  color: #000000 !important;
+  text-underline-offset: .5rem;
+}
+
+.Fbtn2:hover{
+  border-color: #000000 !important;
+  opacity: 80%;
+  border-radius: 3rem;
+  width: 4rem;
+}
+
+.Fbtn3:hover{
+  letter-spacing: .2rem;
+  text-shadow: 1px 1px #00000034;
+  opacity: 100% !important;
+}
+
+.emptyR{
+  visibility: hidden;
+  background-color: #fff;
+  height: 12.5vw;
+}
+.emptyR2{
+  visibility: hidden;
+  background-color: #fff;
+  height: 0.5vw;
+}
+.emptyR3{
+  visibility: hidden;
+  background-color: #fff;
+  height: 5vw;
+}
+.emptyR0{
+  visibility: hidden;
+  background-color: #fff;
+  height: 2vw;
+}
+
+.bigText{
+  font-size: 3em;
+  font-weight: 400;
+}
+.biggerText{
+  font-size: 5em;
+  font-weight: 400;
+}
+
+.fw600{
+  font-weight: 600;
+}
+
+.linkT{
+  color: #8BB28C;
+  /* text-decoration:none; */
+  background-color: #fff;
+  padding: .5% 1%;
+}
+.linkT:hover{
+  color: #000000;
+  text-underline-offset: .5rem;
+  padding: 0.2%;
+  margin: 0 .8%;
+}
+
+.divider{
+  height: 0.2em;
+  background-color: #fff;
+  margin-top: 2.5em;
+  width: 50vw;
+}
+
+
+
+/* animate */
+.animate__animated.animate__backInLeft.wow {
+    --animate-duration: 800ms;
+  }
+.animate__animated.animate__flipInX.wow {
+    --animate-delay: .5s;
+    --animate-duration: 800ms;
+  }
+.animate__animated.animate__rubberBand.wow {
+    --animate-delay: .5s;
+  }
