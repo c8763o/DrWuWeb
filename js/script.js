@@ -26,3 +26,23 @@ $('.right').click(function(){
   $(this).css('background-color','#48cf4c').css('color','white').addClass('animate__animated').addClass('animate__tada');
 });
 
+
+$('.tLineText').mouseenter(function(){
+  $(this).css('color','white').css('font-size','1.2rem').removeClass('col').addClass('col-3');
+});
+$('.tLineText').mouseleave(function(){
+  $(this).css('color','black').css('font-size','1rem').removeClass('col-3').addClass('col');
+});
+
+$('#born').mouseenter(function(){
+  $(this).css('color','white').html('出生').css('font-size','1.5rem');
+});
+$('#born').mouseleave(function(){
+  $(this).css('color','black').html('1947年6月24日').css('font-size','1.5rem');
+});
+$('#died').mouseenter(function(){
+  $(this).css('color','white').html('長眠').css('font-size','1.5rem');
+});
+$('#died').mouseleave(function(){
+  $(this).css('color','black').html('2021年10月09日').css('font-size','1.5rem');
+});
