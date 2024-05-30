@@ -26,16 +26,16 @@
     <!-- nav -->
     <div class="container-fluid">
         <div class="row mx-1">
-            <ul class="nav nav-pills justify-content-center bg-white py-3 m-0 border border-dark border-3 fs-2">
+            <ul class=" nav nav-pills justify-content-center bg-white py-3 m-0 border border-dark border-3 fs-2">
                 <li class="nav-item mx-5">
                     <a class="nav-link rounded-pill border border-2 mainColor fw-bold active" aria-current="page"
                         href="#">首頁</a>
                 </li>
                 <li class="nav-item mx-5">
-                    <a class="nav-link rounded-pill border border-2 borderMainColor mainColor btn-1" href="#">生平事蹟</a>
+                    <a class="nav-link rounded-pill border border-2 borderMainColor mainColor btn-1" href="bio.html">生平事蹟</a>
                 </li>
                 <li class="nav-item mx-5">
-                    <a class="nav-link rounded-pill border border-2 borderMainColor mainColor btn-1" href="#">獎學金</a>
+                    <a class="nav-link rounded-pill border border-2 borderMainColor mainColor btn-1" href="scholarship.html">獎學金</a>
                 </li>
                 <li class="nav-item mx-5">
                     <a class="nav-link rounded-pill border border-2 borderMainColor mainColor btn-1" href="#">介紹影片</a>
@@ -75,7 +75,7 @@
             </div>
         </div>
         <div class="d-flex mt-5 justify-content-center">
-            <div class="bigText text-white text-end text-nowrap animate__animated animate__rubberBand animate__delay-1s wow">不知道答案？ 去<a class="fw-bold linkT" href="#">生平事蹟</a>找找看吧！</div>
+            <div class="bigText text-white text-end text-nowrap animate__animated animate__rubberBand animate__delay-1s wow">不知道答案？ 去<a class="fw-bold linkT" href="bio.html">生平事蹟</a>找找看吧！</div>
             <div class="divider pb-1 ms-5"></div>
         </div>
     </div>
@@ -83,7 +83,13 @@
     <div class="emptyR0"></div>
     <div class="container-fluid my-5 mt-5">
         <div class="row d-flex justify-content-center mx-0 mb-2">
-            <img src="./img/Q2.png" class="img-fluid z-0 position-absolute px-3 animate__animated animate__backInLeft wow" alt="question2">
+            <picture>
+                <source media="(min-width: 1440px)" srcset="./img/Q2.png" class="img-fluid z-0 position-absolute px-3 animate__animated animate__backInLeft wow" alt="question2">
+                <source media="(min-width: 1220px)" srcset="./img/Q2-1200.png" class="img-fluid z-0 position-absolute px-3 animate__animated animate__backInLeft wow" alt="question2">
+                <source media="(min-width: 1050px)" srcset="./img/Q2-1050.png" class="img-fluid z-0 position-absolute px-3 animate__animated animate__backInLeft wow" alt="question2">
+                <img src="./img/Q2-992.png" class="img-fluid z-0 position-absolute px-3 animate__animated animate__backInLeft wow" alt="question2">
+
+            </picture>
             <div class="emptyR2"></div>
             <div class="d-flex">
                 <h1
@@ -112,7 +118,12 @@
     <div class="container-fluid my-5 mt-5">
         <div class="emptyR3"></div>
         <div class="row d-flex justify-content-center mx-0 mb-2">
-            <img src="./img/Q3.png" class="img-fluid z-0 position-absolute px-3 animate__animated animate__flipInX animate__delay-1s wow" alt="question3">
+            <picture>
+                <source media="(min-width: 1600px)" srcset="./img/Q3.png" class="img-fluid z-0 position-absolute px-3 animate__animated animate__backInLeft wow" alt="question2">
+                <source media="(min-width: 1400px)" srcset="./img/Q3-1400.png" class="img-fluid z-0 position-absolute px-3 animate__animated animate__backInLeft wow" alt="question2">
+                <source media="(min-width: 1200px)" srcset="./img/Q3-1200.png" class="img-fluid z-0 position-absolute px-3 animate__animated animate__backInLeft wow" alt="question2">
+                <img src="./img/Q3-992.png" class="img-fluid z-0 position-absolute px-3 animate__animated animate__flipInX animate__delay-1s wow" alt="question3">
+            </picture>
             <div class="emptyR3"></div>
             <div class="justify-content-end d-flex">
                 <h1
@@ -141,7 +152,7 @@
     <!-- animation -->
     <div class="container-fluid p-0 m-0">
         <div class="row-12 justify-content-center d-flex bg-white py-3 border-bottom borderMainColor border-5">
-            <H1 class="biggerText mainColor m-0">介紹影片</H1>
+            <h1 class="biggerText mainColor m-0">介紹影片</h1>
         </div>
         <div class="row-12 ratio ratio-16x9">
             <iframe width="100%" height="" src="https://www.youtube-nocookie.com/embed/jzf6b_7wfPU?si=4RQijoKCFp0CCxhn" 
@@ -178,7 +189,7 @@
         </div>
         <div class="d-flex mt-5 justify-content-center">
             <div class="divider pb-1 me-5"></div>
-            <div class="bigText text-white text-end text-nowrap animate__animated animate__rubberBand animate__delay-1s wow">需要複習？ 去<a class="fw-bold linkT" href="#">生平事蹟</a>找找看吧！</div>
+            <div class="bigText text-white text-end text-nowrap animate__animated animate__rubberBand animate__delay-1s wow">需要複習？ 去<a class="fw-bold linkT" href="bio.html">生平事蹟</a>找找看吧！</div>
         </div>
     </div>
 
@@ -253,8 +264,8 @@
 
                         <nav class="nav d-flex justify-content-around fs-2">
                             <a class="nav-link link-offset-1 active" aria-current="page" href="#"><span class="mainColor Fbtn">首頁</span></a>
-                            <a class="nav-link link-offset-1" href="#"><span class="mainColor Fbtn">生平事蹟</span></a>
-                            <a class="nav-link link-offset-1" href="#"><span class="mainColor Fbtn">獎學金</span></a>
+                            <a class="nav-link link-offset-1" href="bio.html"><span class="mainColor Fbtn">生平事蹟</span></a>
+                            <a class="nav-link link-offset-1" href="scholarship.html"><span class="mainColor Fbtn">獎學金</span></a>
                             <a class="nav-link link-offset-1" href="#"><span class="mainColor Fbtn">介紹影片</span></a>
                             <a class="nav-link link-offset-1" href="#"><span class="mainColor Fbtn">關於我們</span></a>
                             
