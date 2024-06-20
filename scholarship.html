@@ -18,8 +18,8 @@
 
     <!-- 跑馬燈 -->
     <div class="container-fluid">
-        <div class="row py-3">
-            <marquee onmouseover="this.stop();" onmouseout="this.start();" class="text-white m-0 fs-3"
+        <div class="row py-lg-3 py-md-2 py-0">
+            <marquee onmouseover="this.stop();" onmouseout="this.start();" class="text-white m-0 fs-3 mText"
                 scrollamount="10">
                 吳嘉麗，(1947年6月24日—2021年10月09日)台灣化學學者、淡江大學化學系教授、婦女運動者，曾任婦女新知雜誌創刊時期之社務委員、婦女新知基金會第一、二屆董事及第三屆董事長、考試院考試委員、台灣女科技人學會理事長、台灣女性學學會會長、行政院性別平等會第二屆委員、婦女權益促進發展基金會第九屆常務董事。她專精於苔蘚植物化學研究，關注科學普及教育，長期倡議婦女權益與推動性別平等教育等。
             </marquee>
@@ -27,30 +27,39 @@
     </div>
 
     <!-- nav -->
-    <div class="container-fluid">
-        <div class="row mx-1">
-            <ul class="nav nav-pills justify-content-center bg-white py-3 m-0 border border-dark border-3 fs-2">
-                <li class="nav-item mx-5">
-                    <a class="nav-link rounded-pill border border-2 borderMainColor mainColor btn-1"
-                        href="index.html">首頁</a>
-                </li>
-                <li class="nav-item mx-5">
-                    <a class="nav-link rounded-pill border border-2 borderMainColor mainColor btn-1"
+    <nav class="navbar navbar-expand-lg py-0">
+        <div class="container-fluid navBurger">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="row mx-1 collapse navbar-collapse" id="navbarNav">
+                <ul
+                    class="navbar-nav nav-pills justify-content-center bg-white py-3 px-0 m-0 border border-dark border-3 fs-2 noBorder">
+                    <li class="nav-item mx-xxl-5 mx-xl-4 mx-lg-4 mx-0">
+                        <a class="nav-link rounded-pill border border-2 borderMainColor mainColor px-3 btn-1"
+                            href="index.html">首頁</a>
+                    </li>
+                    <li class="nav-item mx-xxl-5 mx-xl-4 mx-lg-4 mx-0">
+                        <a class="nav-link rounded-pill border border-2 borderMainColor mainColor px-3 btn-1"
                         href="bio.html">生平事蹟</a>
-                </li>
-                <li class="nav-item mx-5">
-                    <a class="nav-link rounded-pill border border-2 mainColor fw-bold active" aria-current="page"
-                        href="#">獎學金</a>
-                </li>
-                <li class="nav-item mx-5">
-                    <a class="nav-link rounded-pill border border-2 borderMainColor mainColor btn-1" href="#">介紹影片</a>
-                </li>
-                <li class="nav-item mx-5">
-                    <a class="nav-link rounded-pill border border-2 borderMainColor mainColor btn-1" href="#">關於我們</a>
-                </li>
-            </ul>
+                    </li>
+                    <li class="nav-item mx-xxl-5 mx-xl-4 mx-lg-4 mx-0">
+                        <a class="nav-link rounded-pill border border-2 mainColor fw-bold active px-3"
+                            aria-current="page" href="#">助學金</a>
+                    </li>
+                    <li class="nav-item mx-xxl-5 mx-xl-4 mx-lg-4 mx-0">
+                        <a class="nav-link rounded-pill border border-2 borderMainColor mainColor px-3 btn-1"
+                            href="video.html">介紹影片</a>
+                    </li>
+                    <li class="nav-item mx-xxl-5 mx-xl-4 mx-lg-4 mx-0">
+                        <a class="nav-link rounded-pill border border-2 borderMainColor mainColor px-3 btn-1"
+                            href="aboutUs.html">關於我們</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
 
     <!-- header -->
     <header>
@@ -74,13 +83,13 @@
 
 
         <div class="row sContainer2">
-            <div class="col d-flex justify-content-center sContainer3">
+            <div class="col justify-content-center sContainer3">
                 <p class="sArticle p-0 m-0">
                     2000年後，吳嘉麗教授致力於團結科技界女性，成立了女化學家聯誼會，並聯合物理界女教授合辦研討會，鼓勵各個學會成立女科學家聯誼會。2008年，她創辦了《台灣女科技人電子報》，每月發行數萬份，成為讀者們期待的刊物。
                 </p>
             </div>
 
-            <div class="col-lg-3 d-flex justify-content-center mx-4 magz magz1">
+            <div class="col justify-content-center mx-1 mx-md-3 mx-lg-4 magz magz1">
                 <a href="http://www.twepress.net/new/activity/item/1497-2024-natea-women-s-summit" target="_blank">
                     <div class="overlay">
                         <div class="text">2024 NATEA 「Women’s Summit <br>女力論壇」</div>
@@ -88,7 +97,7 @@
                 </a>
             </div>
 
-            <div class="col d-flex justify-content-center magz magz2">
+            <div class="col justify-content-center magz magz2">
                 <a href="https://www.twist.org.tw/post/2024%E5%A5%B3%E7%A7%91%E6%8A%80%E4%BA%BA%E5%A4%A7%E6%9C%83-%E6%96%B0%E8%81%9E%E7%A8%BF"
                     target="_blank">
                     <div class="overlay">
@@ -99,7 +108,7 @@
         </div>
 
         <div class="row sContainer2">
-            <div class="col-lg-6 d-flex justify-content-center me-4 magz magz3">
+            <div class="col justify-content-center me-1 me-md-3 me-lg-4 magz magz3">
                 <a href="https://www.twist.org.tw/%E9%97%9C%E6%96%BC%E5%AD%B8%E6%9C%83" target="_blank">
                     <div class="overlay">
                         <div class="text">關於 台灣女科技人學會</div>
@@ -107,7 +116,7 @@
                 </a>
             </div>
 
-            <div class="col d-flex justify-content-center sContainer3">
+            <div class="col justify-content-center sContainer3">
                 <p class="sArticle p-0 m-0">
                     2011年，吳嘉麗教授結合更多女科技人成立了「台灣女科技人學會」。學會定期舉辦活動，向下紮根，出版書籍給中、小學生閱讀，推薦女科技人楷模，如《築夢飛翔》、《追夢，我的世界宇宙大》、《女科技人的理性與感性》等。學會還積極參與國際事務，成為世界女科技人聯絡網理事，組團出國開會，連結國際女科技人，舉辦國際會議(APNN和IConWiST)，並補助年輕女性出國開會或參與競賽。
                 </p>
@@ -131,8 +140,8 @@
                         <div
                             class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-center justify-content-center mb-3">
 
-                            <a class="btn Fbtn2 borderMainColor m-1" href="https://www.twist.org.tw/" target="_blank"
-                                role="button">
+                            <a class="btn Fbtn2 borderMainColor m-1 Fpadding" href="https://www.twist.org.tw/"
+                                target="_blank" role="button">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#8BB28C"
                                     class="bi bi-browser-chrome" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
@@ -140,7 +149,7 @@
                                 </svg>
                             </a>
 
-                            <a class="btn Fbtn2 borderMainColor m-1"
+                            <a class="btn Fbtn2 borderMainColor m-1 Fpadding"
                                 href="https://youtube.com/playlist?list=PLXCt_c_87PU_Pbt6-0kZHYW5BsD-kLJKj&si=O0Yghpyp4u2Ja7s8"
                                 target="_blank" role="button">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#8BB28C"
@@ -150,14 +159,14 @@
                                 </svg>
                             </a>
 
-                            <a class="btn Fbtn2 borderMainColor m-1 mx-3" href="#" role="button">
+                            <a class="btn Fbtn2 borderMainColor m-1 mx-3 Fpadding" href="#" role="button">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#8BB28C"
                                     class="bi bi-chevron-up" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
                                         d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
                                 </svg>
                             </a>
-                            <a class="nav-link btn Fbtn3 fs-3 fw-bold opacity-75" data-bs-toggle="modal"
+                            <a class="nav-link btn Fbtn3 fs-3 fw-bold opacity-75 instruction" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal"><span class="mainColor">使用說明</span></a>
                         </div>
                     </div>
@@ -166,13 +175,15 @@
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
                     <nav class="nav d-flex justify-content-around fs-2">
-                        <a class="nav-link link-offset-1" href="index.html"><span class="mainColor Fbtn">首頁</span></a>
-                        <a class="nav-link link-offset-1" href="bio.html"><span class="mainColor Fbtn">生平事蹟</span></a>
-                        <a class="nav-link link-offset-1 active" aria-current="page" href="#"><span
-                                class="mainColor Fbtn">獎學金</span></a>
-                        <a class="nav-link link-offset-1" href="#"><span class="mainColor Fbtn">介紹影片</span></a>
-                        <a class="nav-link link-offset-1" href="#"><span class="mainColor Fbtn">關於我們</span></a>
-
+                        <a class="nav-link link-offset-1 fText" href="index.html"><span
+                                class="mainColor Fbtn">首頁</span></a>
+                        <a class="nav-link link-offset-1 fText" href="bio.html"><span
+                                class="mainColor Fbtn">生平事蹟</span></a>
+                        <a class="nav-link link-offset-1 active fText" aria-current="page" href="#"><span
+                                class="mainColor Fbtn">助學金</span></a>
+                        <a class="nav-link link-offset-1 fText" href="video.html"><span
+                                class="mainColor Fbtn">介紹影片</span></a>
+                        <a class="nav-link link-offset-1 fText" href="aboutUs.html"><span class="mainColor Fbtn">關於我們</span></a>
                     </nav>
                 </div>
             </div>
@@ -181,9 +192,9 @@
         <!-- 使用說明 -->
 
         <!-- 版權文字 -->
-        <div class="text-center p-3 text-black" style="background-color: rgb(255, 255, 255);">
+        <div class="text-center p-3 text-black copyright" style="background-color: rgb(255, 255, 255);">
             © 2024 Copyright:
-            <a class="text-black" style="text-decoration:none;" href="./index.html">江皓葳、張翎蓁 All Rights
+            <a class="text-black" style="text-decoration:none;" href="./index.html">江皓葳 All Rights
                 Reserved.</a>
         </div>
 
@@ -195,9 +206,16 @@
 
 
     <script src="./js/jQuery.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async>
+        </script>
     <script src="./js/wow.min.js"></script>
     <script>
         new WOW().init();

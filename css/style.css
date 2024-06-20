@@ -1,22 +1,23 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.bgColor{
+.bgColor {
   background-color: #8BB28C;
 }
 
-.mainColor{
+.mainColor {
   color: #8BB28C;
 }
 
-.rounded-pill.active{
+.rounded-pill.active {
   background-color: #8BB28C !important;
+  color: #fff !important;
 }
 
-.active .Fbtn{
+.active .Fbtn {
   /* border-style: solid !important;
   border-color: #0000002d !important;
   border-radius: 2rem !important;
@@ -26,37 +27,39 @@
   text-decoration: none;
 }
 
-.borderMainColor{
+.borderMainColor {
   border-color: #8BB28C !important;
 }
 
-.btn-1:hover{
+.btn-1:hover {
   background-color: #8BB28C !important;
   color: white !important;
   border-color: black !important;
 }
 
-.btn-2{
+.btn-2 {
   background-color: white;
   color: #8BB28C;
-  border-color: black ;
+  border-color: black;
 }
-.btn-2:hover{
+
+.btn-2:hover {
   background-color: #000000;
   color: white;
   border-color: black;
 }
 
-.Fbtn{
+.Fbtn {
   text-decoration: underline;
 }
-.Fbtn:hover{
+
+.Fbtn:hover {
   color: #000000;
   text-underline-offset: .5rem;
   transition: text-underline-offset .5s;
 }
 
-.Fbtn2:hover{
+.Fbtn2:hover {
   border-color: #000000 !important;
   opacity: 80%;
   border-radius: 3rem;
@@ -64,14 +67,14 @@
   transition: all 1s;
 }
 
-.Fbtn3:hover{
+.Fbtn3:hover {
   letter-spacing: .2rem;
   text-shadow: 1px 1px #00000034;
   opacity: 100% !important;
   transition: letter-spacing 1s;
 }
 
-.Sbtn{
+.Sbtn {
   background-color: white;
   /* border-color: black ; */
   min-width: 10%;
@@ -85,7 +88,8 @@
   font-weight: 700;
   font-size: 1.2rem;
 }
-.Sbtn:hover{
+
+.Sbtn:hover {
   background-color: #000000;
   min-width: 10%;
   position: fixed;
@@ -98,7 +102,8 @@
   font-weight: 700;
   font-size: 1.2rem;
 }
-.Sbtn:active{
+
+.Sbtn:active {
   background-color: #ffffff !important;
   min-width: 10%;
   position: fixed;
@@ -112,70 +117,80 @@
   font-size: 1.2rem;
 }
 
-.emptyR{
+.emptyR {
   visibility: hidden;
   background-color: #fff;
   height: 12.5vw;
 }
-.emptyR2{
+
+.emptyR2 {
   visibility: hidden;
   background-color: #fff;
   height: 0.5vw;
 }
-.emptyR3{
+
+.emptyR3 {
   visibility: hidden;
   background-color: #fff;
   height: 5vw;
 }
-.emptyR0{
+
+.emptyR0 {
   visibility: hidden;
   background-color: #fff;
   height: 2vw;
 }
 
-.bigText{
+.bigText {
   font-size: 3em;
   font-weight: 400;
 }
-.bigText2{
+
+.bigText2 {
   font-size: 2.5em;
   font-weight: 700;
   color: #fff;
 }
-.biggerText{
+
+.biggerText {
   font-size: 5em;
   font-weight: 400;
 }
-.biggerText2{
+
+.biggerText2 {
   color: #fff;
-  font-size: 6em;
+  font-size: 6rem;
   font-weight: 900;
   letter-spacing: .7rem;
   padding-top: 10%;
 }
-.boldText{
+
+.boldText {
   font-size: 1em;
   font-weight: 600;
   text-shadow: .5px .5px #00000077;
 }
 
-.fw500{
+.fw500 {
   font-weight: 500;
 }
-.fw600{
+
+.fw600 {
   font-weight: 600;
 }
-.fw900{
+
+.fw900 {
   font-weight: 900;
 }
 
-.linkT{
+.linkT {
   color: #8BB28C;
   /* text-decoration:none; */
   background-color: #fff;
   padding: .5% 1%;
 }
-.linkT:hover{
+
+.linkT:hover {
   color: #000000;
   text-underline-offset: .5rem;
   padding: 0.2%;
@@ -183,62 +198,67 @@
   transition: all 1s;
 }
 
-.divider{
+.divider {
   height: 0.2em;
   background-color: #fff;
   margin-top: 2.5em;
-  width: 50vw;
+  width: 45vw;
 }
 
-.tLine{
+.tLine {
   height: 0.2em;
   background-color: #fff;
   margin-top: 3.5em !important;
   width: 79vw;
 }
 
-.tLineText{
+.tLineText {
   transition: font-size 2s, color .5s;
 }
-#born{
-  transition: all .5s;
-}
-#died{
+
+#born {
   transition: all .5s;
 }
 
-.bgImg{
+#died {
+  transition: all .5s;
+}
+
+.bgImg {
   background-image: url("../img/scholarship.png");
   max-width: 100%;
   height: auto;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-.magz1{
+
+.magz1 {
   background-image: url("../img/foundation1.png");
   max-width: 100%;
   height: auto;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
   background-position: center;
   position: relative;
 }
-.magz2{
+
+.magz2 {
   background-image: url("../img/foundation2.png");
   max-width: 100%;
   height: auto;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
   background-position: center;
   position: relative;
 }
-.magz3{
+
+.magz3 {
   background-image: url("../img/foundation3.png");
   max-width: 100%;
   height: auto;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
   background-position: center;
@@ -258,9 +278,11 @@
   transition: .5s ease;
   background-color: #00000098;
 }
+
 .magz:hover .overlay {
   opacity: 1;
 }
+
 .text {
   color: white;
   font-size: 1.2rem;
@@ -273,7 +295,7 @@
   text-align: center;
 }
 
-.subtitle1{
+.subtitle1 {
   color: #fff;
   font-size: 2.3rem;
   font-weight: 400;
@@ -282,11 +304,15 @@
   padding-top: 1%;
 }
 
-.scholarship{
+.scholarship {
   padding: 0 15%;
 }
 
-.sContainer{
+.sArticle{
+  font-size: 1.2rem;
+}
+
+.sContainer {
   background-color: #ffffffb2;
   padding: 2% 3%;
   margin: 2% 0 4%;
@@ -294,7 +320,8 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
-.sContainer2{
+
+.sContainer2 {
   /* background-color: #fff; */
   /* padding: 2% 3%; */
   margin: 0% 0 2%;
@@ -302,7 +329,8 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
-.sContainer3{
+
+.sContainer3 {
   background-color: #fff;
   padding: 2% 3%;
   margin: 0% 0 0%;
@@ -311,14 +339,321 @@
   font-weight: 600;
 }
 
+.vContainer {
+  background-color: #000000;
+  padding: 0% 0%;
+  margin: 3% 0 5%;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.noPadding {
+  padding: 0 !important;
+  max-width: 95%;
+  object-fit: cover;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+/* .cardL{
+  padding: 0 0 0 0.5%;
+}
+.cardC{
+  padding: 0 0.5%;
+}
+.cardR{
+  padding: 0 0.5% 0 0;
+} */
+
+
 /* animate */
 .animate__animated.animate__backInLeft.wow {
-    --animate-duration: 800ms;
-  }
+  --animate-duration: 800ms;
+}
+
 .animate__animated.animate__flipInX.wow {
-    --animate-delay: .5s;
-    --animate-duration: 800ms;
-  }
+  --animate-delay: .5s;
+  --animate-duration: 800ms;
+}
+
 .animate__animated.animate__rubberBand.wow {
-    --animate-delay: .5s;
+  --animate-delay: .5s;
+}
+
+
+@media screen and (max-width: 1400px) {
+
+  .scholarship {
+    padding: 0 10%;
   }
+
+  .vContainer {
+    background-color: #000000;
+    padding: 0% 0%;
+    margin: 2% 0 5%;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .divider {
+    height: 0.2em;
+    background-color: #fff;
+    margin-top: 2.5em;
+    width: 35vw;
+  }
+
+  .biggerText2{
+    font-size: 5rem;
+  }
+
+  .subtitle1{
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .scholarship {
+    padding: 0 5%;
+  }
+
+  .vContainer {
+    background-color: #000000;
+    padding: 0% 0%;
+    margin: 1% 0 5%;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .Qpadding {
+    padding: 0 .5% !important;
+  }
+
+  .divider {
+    height: 0.2em;
+    background-color: #fff;
+    margin-top: 2.5em;
+    width: 20vw;
+  }
+
+  .biggerText2{
+    font-size: 4rem;
+  }
+
+  .subtitle1{
+    font-size: 1.5rem;
+  }
+
+  .sArticle{
+    font-size: 1rem;
+  }
+
+  .bigText2{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .bigText {
+    font-size: 2em;
+    font-weight: 400;
+  }
+
+  .biggerText {
+    font-size: 4em;
+    font-weight: 400;
+  }
+
+  .divider {
+    height: 0.2em;
+    background-color: #fff;
+    margin-top: 1.5em;
+    width: 30vw;
+  }
+
+  .Qpadding {
+    padding: 0 0% !important;
+  }
+
+  .navBurger {
+    background-color: #fff;
+    margin: 0;
+    padding: 1% 1%;
+    border: #000000 2px solid;
+  }
+
+  .noBorder {
+    border-width: 0 !important;
+    border-style: none !important;
+    padding: 1% 0 0 0 !important;
+  }
+
+  .Qtext {
+    font-size: 2rem !important;
+    padding: 0.8rem !important;
+  }
+
+  .mText{
+    font-size: 1.5rem !important;
+  }
+
+  .scholarship {
+    padding: 0 2%;
+  }
+
+  .biggerText2{
+    font-size: 3rem;
+  }
+
+  .subtitle1{
+    font-size: 1.2rem;
+  }
+
+  .sArticle{
+    font-size: .8rem;
+  }
+
+  .bigText2{
+    font-size: 1.5rem;
+  }
+
+  .tLine {
+    display: none;
+  }
+
+  .cText{
+    text-align: center !important;
+  }
+
+  .tM{
+    margin: 0 0 5% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .Qtext {
+    font-size: 1.5rem !important;
+    padding: 0.5rem !important;
+  }
+
+  .bigText {
+    font-size: 1.7em;
+    font-weight: 400;
+  }
+
+  .biggerText {
+    font-size: 3em;
+    font-weight: 400;
+  }
+
+  .divider {
+    height: 0.1em;
+    background-color: #fff;
+    margin-top: 1.2em;
+    width: 10vw;
+  }
+
+  .mText{
+    font-size: 1rem !important;
+  }
+  
+  .fText {
+    font-size: 1.2rem !important;
+    padding: 0.5rem !important;
+  }
+
+  svg{
+    width: 70% !important;
+    height: 70% !important;
+  }
+
+  .Fpadding{
+    padding: 1% 1%;
+  }
+
+  .instruction{
+    font-size: 1rem !important;
+  }
+  .copyright{
+    font-size: .8rem !important;
+  }
+
+  .scholarship {
+    padding: 0 1%;
+  }
+
+  .biggerText2{
+    font-size: 2.5rem;
+    letter-spacing: .35rem;
+  }
+
+  .subtitle1{
+    font-size: 1.1rem;
+  }
+
+  .bigText2{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .bigText {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+
+  .biggerText {
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+
+  .divider {
+    height: 0.2em;
+    background-color: #fff;
+    margin-top: 1.5em;
+    width: 50vw;
+    display: none;
+  }
+
+  html,body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .mText{
+    font-size: .8rem !important;
+  }
+
+  .Qtext {
+    font-size: 1.2rem !important;
+    padding: 0.5rem !important;
+  }
+
+  .fText {
+    font-size: 1rem !important;
+    padding: 0.2rem !important;
+  }
+
+  .biggerText2{
+    font-size: 1.5rem;
+  }
+
+  .subtitle1{
+    font-size: 1rem;
+  }
+
+  .sContainer2{
+    margin: 1%;
+  }
+}
