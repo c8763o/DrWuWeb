@@ -28,10 +28,10 @@ $('.right').click(function(){
 
 
 $('.tLineText').mouseenter(function(){
-  $(this).css('color','white').css('font-size','1.2rem').removeClass('col').addClass('col-3');
+  $(this).css('color','white').css('font-size','1.2rem').removeClass('col-lg-2').addClass('col-lg-3');
 });
 $('.tLineText').mouseleave(function(){
-  $(this).css('color','black').css('font-size','1rem').removeClass('col-3').addClass('col');
+  $(this).css('color','black').css('font-size','1rem').removeClass('col-lg-3').addClass('col-lg-2');
 });
 
 $('#born').mouseenter(function(){
